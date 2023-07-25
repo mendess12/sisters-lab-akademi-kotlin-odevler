@@ -1,0 +1,48 @@
+
+Null-safety'nin diğer programlama dilleriyle karşılaştırıldığında avantajları nelerdir? 
+Kotlin'in null-safety özelliği neden diğer dillerden farklıdır?
+
+* Kotlin, yerleşik null güvenliği desteği sağlar. Bu, güvenilir kod yazmayı kolaylaştırır 
+ve yaygın programlama hatalarını önlemeye yardımcı olur.
+
+* Null, bir değişkenin değerinin atanmadığı veya boş olduğunu ifade etmek için 
+kullanılan bir terimdir.
+
+Avantajları:
+1-Null referans hatalarını önler.
+2-Güvenli işlemler yapılmasını sağlar.
+3-Null safety'nin java uyumluluğu vardır. Kotlin ile yazılan kodlar Java ile yazılan 
+kodlara entegre edilirken null referans hataları ortadan kalkar.
+4-Kotlin'de null-safety, akıllı dönüşümlere olanak tanır. 
+
+
+Null değeri döndürebilecek değişkenleri nasıl kontrol ederiz?
+
+1-Safe Call (?.)
+	Örnek:  
+	var selam: String? = null
+ 	selam?.uppercase()
+
+2-If kontrol
+	Örnek:
+	var selam: String? = null
+
+    	if(selam != null){
+        println("selam")
+    	}else{
+        println("Değer Null!")
+    	}
+
+3-Elvis Operatörü (?:)
+	Örnek:
+	val name: String? = null
+    	val message = "Hoşgeldin ${name ?: "Yabancı"}"
+    	println(message)
+
+4-“!!” Operatörü
+	Örnek:
+	val selam : String? = null
+    	selam!!.uppercase()	
+
+
+
