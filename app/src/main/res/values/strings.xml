@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SistersLabAkademiKotlinOdevleri</string>
+    <string name="urun_adi">Hamburger</string>
+    <string name="urun_fiyati">150 TL</string>
+    <string name="satin_al">Şimdi Satın Al</string>
+    <string name="urun_aciklamasi">Hamburger veya sadece Burger, iki dilim yuvarlak sandviç ekmeği arasına yerleştirilen bir köfte, Amerikan peyniri, marul yapılan sandviç türü. Genellikle ketçap, mayonez, turşu, soğan, domates, hardal ve bunun gibi değişik malzemelerin de ilavesi ile servis edilir</string>
+    <string name="urun_tasarimina_git">Ürün Tasarımına Git</string>
+    <string name="hava_durumu_tasarimina_git">Hava Durumu Tasarımına Git</string>
 </resources>
