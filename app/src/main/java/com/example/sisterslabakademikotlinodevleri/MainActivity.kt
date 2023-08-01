@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.sisterslabakademikotlinodevleri.databinding.ActivityMainBinding
 import com.example.sisterslabakademikotlinodevleri.hafta3.odev1.UrunActivity
+import com.example.sisterslabakademikotlinodevleri.hafta3.odev2.HavaDurumuActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,6 +20,11 @@ class MainActivity : AppCompatActivity() {
         binding.urunTasariminaGitButton.setOnClickListener {
             val intent = Intent(this@MainActivity, UrunActivity::class.java)
             startActivity(intent)
+        }
+
+        binding.havaDurumuTasariminaGitButton.setOnClickListener {
+            val intent2 = Intent(this@MainActivity, HavaDurumuActivity::class.java)
+            startActivity(intent2)
         }
 
 

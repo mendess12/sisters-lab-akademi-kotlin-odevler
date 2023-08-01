@@ -6,4 +6,25 @@
     <string name="urun_aciklamasi">Hamburger veya sadece Burger, iki dilim yuvarlak sandviç ekmeği arasına yerleştirilen bir köfte, Amerikan peyniri, marul yapılan sandviç türü. Genellikle ketçap, mayonez, turşu, soğan, domates, hardal ve bunun gibi değişik malzemelerin de ilavesi ile servis edilir</string>
     <string name="urun_tasarimina_git">Ürün Tasarımına Git</string>
     <string name="hava_durumu_tasarimina_git">Hava Durumu Tasarımına Git</string>
+    <string name="sehir">Adana</string>
+    <string name="bugun">Bugün</string>
+    <string name="yarin">Yarın</string>
+    <string name="on_dort_gun">14 Gün</string>
+    <string name="persembe1">Perşembe, Ağu 25</string>
+    <string name="cuma1">Cuma, Ağu 26</string>
+    <string name="cumartesi1">Cumartesi, Ağu 27</string>
+    <string name="pazar1">Pazar, Ağu 28</string>
+    <string name="pazartesi1">Pazartesi, Ağu 29</string>
+    <string name="sali1">Salı, Ağu 30</string>
+    <string name="acik">Açık</string>
+    <string name="yagmurlu">Yağmurlu</string>
+    <string name="cok_bulutlu">Çok Bulutlu</string>
+    <string name="derece_28">28°</string>
+    <string name="derece_15">15°</string>
+    <string name="derece_20">20°</string>
+    <string name="derece_13">13°</string>
+    <string name="derece_22">22°</string>
+    <string name="derece_14">14°</string>
+    <string name="derece_23">23 °</string>
+
 </resources>

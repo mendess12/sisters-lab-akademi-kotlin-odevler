@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="hava_durumu">#433E3E</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#6750A3</color>
     <color name="button_background">#B19CE8</color>

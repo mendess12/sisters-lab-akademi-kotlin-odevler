@@ -14,4 +14,15 @@
         <item name="android:padding">@dimen/padding_5dp</item>
     </style>
 
+    <style name="hava_durumu_text_24sp" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_24sp</item>
+        <item name="android:textColor">@color/hava_durumu</item>
+        <item name="android:padding">@dimen/padding_5dp</item>
+    </style>
+    <style name="hava_durumu_text_20sp" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_20sp</item>
+        <item name="android:textColor">@color/hava_durumu</item>
+        <item name="android:padding">@dimen/padding_5dp</item>
+    </style>
+
 </resources>
